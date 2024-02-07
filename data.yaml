@@ -1,0 +1,14 @@
+path: ../yolov8_seg/
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+# nc: 10
+names: ['bicycles', 'buses', 'chimneys', 'crosswalks', 'fire_hydrants', 'motorcycles', 'stairs', 'taxis', 'tractors', 'traffic_lights']
+
+roboflow:
+  workspace: googlerectapcha
+  project: google-rectapcha-segmentation
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/googlerectapcha/google-rectapcha-segmentation/dataset/2
